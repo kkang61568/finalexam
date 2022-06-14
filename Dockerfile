@@ -9,6 +9,6 @@ RUN pip3 install uvicorn
 RUN WORKDIR /root
 RUN git clone https:/github.com/kkang61568/finalexam.git
 
-RUN WORKDIR /root/knu-oss-2022-assignment3
+RUN WORKDIR /root/finalexam
 
 CMD ["uvicorn", "main:app", "--reload"]
